@@ -1,0 +1,29 @@
+# system info SDRAM_tb on 2016.02.05.11:39:03
+system_info:
+name,value
+DEVICE,EP2C70F896C6
+DEVICE_FAMILY,Cyclone II
+GENERATION_ID,1454668742
+#
+#
+# Files generated for SDRAM_tb on 2016.02.05.11:39:03
+files:
+filepath,kind,attributes,module,is_top
+SDRAM/testbench/SDRAM_tb/simulation/SDRAM_tb.vhd,VHDL,,SDRAM_tb,true
+SDRAM/testbench/SDRAM_tb/simulation/submodules/SDRAM.vhd,VHDL,,SDRAM,false
+SDRAM/testbench/SDRAM_tb/simulation/submodules/altera_avalon_clock_source.vhd,VHDL,,altera_avalon_clock_source,false
+SDRAM/testbench/SDRAM_tb/simulation/submodules/altera_avalon_reset_source.vhd,VHDL,,altera_avalon_reset_source,false
+SDRAM/testbench/SDRAM_tb/simulation/submodules/SDRAM_sdram_controller_test_component.vhd,VHDL,,SDRAM_sdram_controller,false
+SDRAM/testbench/SDRAM_tb/simulation/submodules/SDRAM_sdram_controller.vhd,VHDL,,SDRAM_sdram_controller,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+SDRAM_tb.SDRAM_inst,SDRAM
+SDRAM_tb.SDRAM_inst.sdram_controller,SDRAM_sdram_controller
+SDRAM_tb.SDRAM_inst.SDRAM_Master,SDRAM_SDRAM_Master
+SDRAM_tb.SDRAM_inst.SDRAM_Master_avalon_master_translator,altera_merlin_master_translator
+SDRAM_tb.SDRAM_inst.sdram_controller_s1_translator,altera_merlin_slave_translator
+SDRAM_tb.SDRAM_inst.rst_controller,altera_reset_controller
+SDRAM_tb.SDRAM_inst_clk_bfm,altera_avalon_clock_source
+SDRAM_tb.SDRAM_inst_reset_bfm,altera_avalon_reset_source

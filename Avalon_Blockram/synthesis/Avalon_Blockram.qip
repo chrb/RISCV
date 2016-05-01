@@ -1,0 +1,31 @@
+set_global_assignment -entity "Avalon_Blockram" -library "Avalon_Blockram" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "Avalon_Blockram" -library "Avalon_Blockram" -name IP_TOOL_VERSION "13.0sp1"
+set_global_assignment -entity "Avalon_Blockram" -library "Avalon_Blockram" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "Avalon_Blockram" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../Avalon_Blockram.sopcinfo"]
+set_instance_assignment -entity "Avalon_Blockram" -library "Avalon_Blockram" -name SLD_INFO "QSYS_NAME Avalon_Blockram HAS_SOPCINFO 1 GENERATION_ID 1454670974"
+set_global_assignment -library "Avalon_Blockram" -name MISC_FILE [file join $::quartus(qip_path) "../../Avalon_Blockram.cmp"]
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "Avalon_Blockram" -name MISC_FILE [file join $::quartus(qip_path) "../../Avalon_Blockram.qsys"]
+
+set_global_assignment -library "Avalon_Blockram" -name VHDL_FILE [file join $::quartus(qip_path) "Avalon_Blockram.vhd"]
+set_global_assignment -library "Avalon_Blockram" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.v"]
+set_global_assignment -library "Avalon_Blockram" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_synchronizer.v"]
+set_global_assignment -library "Avalon_Blockram" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.sdc"]
+set_global_assignment -library "Avalon_Blockram" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_translator.sv"]
+set_global_assignment -library "Avalon_Blockram" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_translator.sv"]
+set_global_assignment -library "Avalon_Blockram" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/RISCV.vhd"]
+set_global_assignment -library "Avalon_Blockram" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/Avalon_Blockram_onchip_memory2_0.hex"]
+set_global_assignment -library "Avalon_Blockram" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Avalon_Blockram_onchip_memory2_0.v"]
+
+set_global_assignment -entity "altera_reset_controller" -library "Avalon_Blockram" -name IP_TOOL_NAME "altera_reset_controller"
+set_global_assignment -entity "altera_reset_controller" -library "Avalon_Blockram" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_reset_controller" -library "Avalon_Blockram" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "Avalon_Blockram" -name IP_TOOL_NAME "altera_merlin_slave_translator"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "Avalon_Blockram" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "Avalon_Blockram" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_master_translator" -library "Avalon_Blockram" -name IP_TOOL_NAME "altera_merlin_master_translator"
+set_global_assignment -entity "altera_merlin_master_translator" -library "Avalon_Blockram" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_master_translator" -library "Avalon_Blockram" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Avalon_Blockram_onchip_memory2_0" -library "Avalon_Blockram" -name IP_TOOL_NAME "altera_avalon_onchip_memory2"
+set_global_assignment -entity "Avalon_Blockram_onchip_memory2_0" -library "Avalon_Blockram" -name IP_TOOL_VERSION "13.0.1.99.2"
+set_global_assignment -entity "Avalon_Blockram_onchip_memory2_0" -library "Avalon_Blockram" -name IP_TOOL_ENV "Qsys"

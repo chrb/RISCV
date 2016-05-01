@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="blockram/simulation/submodules/mentor/altera_reset_controller.v"
+   type="VERILOG_ENCRYPT"
+   library="rst_controller"
+   simulator="modelsim" />
+ <file
+   path="blockram/simulation/submodules/mentor/altera_reset_synchronizer.v"
+   type="VERILOG_ENCRYPT"
+   library="rst_controller"
+   simulator="modelsim" />
+ <file
+   path="blockram/simulation/submodules/aldec/altera_reset_controller.v"
+   type="VERILOG_ENCRYPT"
+   library="rst_controller"
+   simulator="riviera" />
+ <file
+   path="blockram/simulation/submodules/aldec/altera_reset_synchronizer.v"
+   type="VERILOG_ENCRYPT"
+   library="rst_controller"
+   simulator="riviera" />
+ <file
+   path="blockram/simulation/submodules/cadence/altera_reset_controller.v"
+   type="VERILOG_ENCRYPT"
+   library="rst_controller"
+   simulator="ncsim" />
+ <file
+   path="blockram/simulation/submodules/cadence/altera_reset_synchronizer.v"
+   type="VERILOG_ENCRYPT"
+   library="rst_controller"
+   simulator="ncsim" />
+ <file
+   path="blockram/simulation/submodules/synopsys/altera_reset_controller.v"
+   type="VERILOG_ENCRYPT"
+   library="rst_controller"
+   simulator="vcs" />
+ <file
+   path="blockram/simulation/submodules/synopsys/altera_reset_synchronizer.v"
+   type="VERILOG_ENCRYPT"
+   library="rst_controller"
+   simulator="vcs" />
+ <file
+   path="blockram/simulation/submodules/mentor/altera_merlin_slave_translator.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="onchip_memory2_0_s1_translator"
+   simulator="modelsim" />
+ <file
+   path="blockram/simulation/submodules/aldec/altera_merlin_slave_translator.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="onchip_memory2_0_s1_translator"
+   simulator="riviera" />
+ <file
+   path="blockram/simulation/submodules/cadence/altera_merlin_slave_translator.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="onchip_memory2_0_s1_translator"
+   simulator="ncsim" />
+ <file
+   path="blockram/simulation/submodules/synopsys/altera_merlin_slave_translator.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="onchip_memory2_0_s1_translator"
+   simulator="vcs" />
+ <file
+   path="blockram/simulation/submodules/mentor/altera_merlin_master_translator.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="AvalonMaster_Blockram_0_avalon_master_translator"
+   simulator="modelsim" />
+ <file
+   path="blockram/simulation/submodules/aldec/altera_merlin_master_translator.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="AvalonMaster_Blockram_0_avalon_master_translator"
+   simulator="riviera" />
+ <file
+   path="blockram/simulation/submodules/cadence/altera_merlin_master_translator.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="AvalonMaster_Blockram_0_avalon_master_translator"
+   simulator="ncsim" />
+ <file
+   path="blockram/simulation/submodules/synopsys/altera_merlin_master_translator.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="AvalonMaster_Blockram_0_avalon_master_translator"
+   simulator="vcs" />
+ <file
+   path="blockram/simulation/submodules/blockram_onchip_memory2_0.hex"
+   type="HEX"
+   library="onchip_memory2_0" />
+ <file
+   path="blockram/simulation/submodules/blockram_onchip_memory2_0.vhd"
+   type="VHDL"
+   library="onchip_memory2_0" />
+ <file path="blockram/simulation/blockram.vhd" type="VHDL" />
+ <topLevel name="blockram" />
+ <deviceFamily name="cycloneii" />
+ <modelMap
+   controllerPath="blockram.onchip_memory2_0"
+   modelPath="blockram.onchip_memory2_0" />
+</simPackage>
